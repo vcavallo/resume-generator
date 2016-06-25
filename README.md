@@ -1,1 +1,1 @@
-# resume-generator
+# resume-generator```markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, extensions = {})# create a markdown string, File.open it as 'file' File.open('html.html', 'w') { |f| f.write(markdown.render(file)) }```
